@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+
+body {
+ background-color: #ede2d3;
+ color: #5e4325;
+ font-family: 'Spline Sans', sans-serif;
+}
+
+.date {
+ min-width: 200px;
+ margin: 2rem 20% 0;
+ background-color: white;
+ padding: .5em 1em;
+ border-radius: 12px;
+}
+
+.tags > * {
+ color:  #cc967b;
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.tags > *:hover {
+ font-weight: bold;
+}
