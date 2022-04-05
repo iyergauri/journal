@@ -4,14 +4,25 @@ body {
  background-color: #ede2d3;
  color: #5e4325;
  font-family: 'Spline Sans', sans-serif;
+ margin: 2em;
+}
+
+br {
+ display: block;
+ content: " ";
+ margin-top: .5em;
 }
 
 .date {
- min-width: 200px;
- margin: 2rem 20% 0;
+ max-width: 1000px;
+ margin: 2em auto;
  background-color: white;
  padding: .5em 1em;
  border-radius: 12px;
+}
+
+.tags {
+ font-size: 1em;
 }
 
 .tags > * {
